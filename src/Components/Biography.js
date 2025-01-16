@@ -61,12 +61,12 @@ const Biography = () => {
         </div>
       </div>
 
-      <hr className="my-10" />
+      <hr className="my-10 ml-[2rem] md:ml-[5rem]" />
       
       <h4 className="md:ml-[7rem] ml-[4rem] font-semibold md:font-bold text-3xl py-7">What I Do?</h4>
       <div className='md:flex md:ml-[7rem] ml-[2rem] '>
       <div className='bg-gray-100  mr-5 hover:text-black hover:bg-orange-400 md:w-[30rem] w-[17rem] mb-16 md:h-[23rem] h-auto shadow-xl rounded-lg p-6'>
-          <h1 className="font-bold px-5 py-5 hover:text-orange-400 hover:bg-black rounded-lg text-xl md:text-2xl text-black pr-1 ">Web Design</h1>
+          <h1 className="font-bold px-5 py-5 text-xl md:text-2xl text-black pr-1 ">Web Design</h1>
           <p className=''>
           Crafting visually appealing and user-friendly interfaces for web applications
 Designing and implementing responsive layouts to ensure smooth user experiences across devices
@@ -76,7 +76,7 @@ Creating custom reusable components using CSS-in-JS and styled-components for sc
 
        
         <div className="bg-gray-100 hover:text-black hover:bg-orange-400  mr-5 md:w-[30rem] w-[17rem] mb-16 md:h-auto h-auto shadow-xl rounded-lg p-6">
-          <h1 className="font-bold rounded-lg px-5 hover:text-orange-400 hover:bg-black text-xl md:text-2xl py-6">Web Development</h1>
+          <h1 className="font-bold rounded-lg px-5 text-xl md:text-2xl py-6">Web Development</h1>
           <p>
           I am a dedicated React.js developer building dynamic and responsive web applications. 
           I excel in building modular and reusable components, 
@@ -87,13 +87,13 @@ Creating custom reusable components using CSS-in-JS and styled-components for sc
            </p>
         </div>
         </div>
-      <hr/>
+      <hr className='ml-[2rem] md:ml-[5rem]'/>
       
        
         
         <h1 className='md:ml-[7rem] ml-[3rem] font-bold text-2xl md:text-3xl py-4 md:w-1/2'>Education & Skills</h1>
        <div className='md:flex mb-10 '>
-      <div className=' mb-14  my-6 md:ml-[7rem] ml-[2rem] w-[17rem] md:w-[25rem] h-auto md:h-[20rem] bg-gray-100 rounded-lg shadow-xl'>
+      <div className=' mb-14 hover:bg-orange-400 my-6 md:ml-[7rem] ml-[2rem] w-[17rem] md:w-[25rem] h-auto md:h-[20rem] bg-gray-100 rounded-lg shadow-xl'>
         <p className='pt-5 px-5 text-gray-500 w-1/2 font-semibold'>2021-2024</p>
         <p className='py-1 px-5 font-semibold'>Bachelor of Law</p>
         <p className='md:inline py-1 px-5 text-gray-500 w-1/2 font-semibold'>Chaudhary Charan Singh University, Meerut.</p>
@@ -144,7 +144,7 @@ Creating custom reusable components using CSS-in-JS and styled-components for sc
 
 </div>
 </div>
- <hr/>
+ <hr className='ml-[2rem]'/>
  </div>
  </div> 
   );

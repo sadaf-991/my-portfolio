@@ -29,9 +29,10 @@ const Resume = () => {
   return (
     <div>
      
-      <button className='md:ml-[15%] ml-[4rem] rounded-md bg-black text-white font-bold px-7 py-5'
+      <button className='hover:bg-orange-400 hover:text-black md:ml-[15%] mb-5 ml-[4rem] rounded-md bg-black text-white font-bold px-7 py-5'
        onClick={()=> {handleDownload(PDF_FILE_URL)}}
        >Download CV</button>
+       <hr className='ml-14 md:ml-[5rem]'/>
     </div>
   )
 }

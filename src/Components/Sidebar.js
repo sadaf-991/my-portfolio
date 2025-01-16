@@ -17,7 +17,7 @@ const Sidebar = ({ onScroll, refs = {} }) => {
       >S</p>
        <img alt='home'
        onClick={()=> handleImageClick('home', refs.homeRef)}
-       className={`md:w-10 w-[2rem] mt-14 md:mt-10 mx-3 pb-3 ${ selectedImage === 'home' ? "border-b-2 border-orange-400" : "border-b-2 hover:border-orange-500"}`}
+       className={`md:w-10 w-[1.5rem] mt-14 md:mt-10 mx-3 pb-3 ${ selectedImage === 'home' ? "border-b-2 border-orange-400" : "border-b-2 hover:border-orange-500"}`}
        src='https://static.vecteezy.com/system/resources/previews/000/366/438/original/home-vector-icon.jpg'/>
        
        <img alt='bio'
