@@ -26,7 +26,7 @@ const Sidebar = ({ onScroll, refs = {} }) => {
        src='https://www.freeiconspng.com/thumbs/contact-icon-png/contacts-icon--26.png'/>
        
        <img alt='resume'
-      
+      onClick={()=> handleImageClick('resume', refs.resumeRef)}
        className={`md:w-10 w-[1.5rem] mt-10 md:mt-10 mx-3 pb-3 ${ selectedImage === 'resume' ? "border-b-2 border-orange-400" : "border-b-2 hover:border-orange-500"}`}
        src='https://tse2.mm.bing.net/th?id=OIP.KH6Leq5GOB1SIvnwTsP0oAAAAA&pid=Api&P=0&h=180'/>
        

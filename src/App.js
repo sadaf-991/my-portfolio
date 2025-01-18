@@ -14,7 +14,7 @@ function App() {
 
   const homeRef = useRef(null);
   const bioRef = useRef(null);
-  
+  const resumeRef = useRef(null);
   const workRef = useRef(null);
   const contactRef = useRef(null);
   
@@ -31,16 +31,18 @@ function App() {
     
     <div className="flex ">
       <Sidebar onScroll={handleScrollToRef}
-      refs={{ homeRef, bioRef, workRef, contactRef }}
+      refs={{ homeRef, bioRef, resumeRef, workRef, contactRef }}
       />
 
-      <div className='overflow-y-scroll ml[15rem] w-full p-5'>
-      <section className='py-1' ref={homeRef} id="home">
+      <div className='ml[15rem] w-full p-5'>
+      <section className='py-1' ref={homeRef}  id="home">
         <Home />
-        <Resume  />
+       
       </section>
 
-      
+      <section ref={resumeRef} id="resume">
+          <Resume />
+        </section>
 
       
       <section ref={bioRef} id="bio">
