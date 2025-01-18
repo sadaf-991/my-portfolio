@@ -13,7 +13,7 @@ const MyWork = () => {
           <p className='hover:bg-black hover:text-orange-400  mt-3 mx-4 py-2 px-5 w-[6rem] rounded-md bg-orange-400 text-white'>PartTime</p>
         </div>
 
-        <div className='md:border-l-2 md:border-t-0 border-t-2 border-gray-300 py-3 mt-4 md:mt-7 md:h-[80%] md:mx-20 '>
+        <div className='md:border-l-2 md:border-t-0 border-t-2 border-gray-300 py-3 mt-4 md:mt-7 h-auto md:h-[80%] md:mx-20 '>
           <p className='mx-3'>Developed and maintained responsive web applications using React.js, Redux, and JavaScript.
 Collaborated with cross-functional teams to design UI components and implement interactive user experiences.
 Optimized application performance by identifying and resolving performance bottlenecks.

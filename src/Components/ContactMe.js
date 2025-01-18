@@ -16,7 +16,7 @@ const ContactMe = () => {
       <img className='md:w-12 w-7 my-5 mr-5'
       alt='call-icon'
       src='https://icon-library.com/images/phone-call-icon-png/phone-call-icon-png-0.jpg'/>
-      <p className='md:mt-7 md:font-semibold ml-[5%]'>+91 9919456147</p>
+      <p className='md:mt-7 mt-7 md:font-semibold ml-[5%]'>+91 9919456147</p>
       </div>
       <div className='flex'>
       <img className='md:w-12 w-7 my-3 mr-5 '

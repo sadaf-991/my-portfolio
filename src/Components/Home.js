@@ -25,7 +25,7 @@ const Home = () => {
       </div>
       <div className=''>
       <p className='md:w-2/3 w-3/3 font-normal md:font-semibold'
-      >A passionate React.js developer building dynamic, user-centric web applications. My expertise lies in crafting responsive UIs, managing state efficiently using React Hooks and Redux, and implementing RESTful APIs to deliver seamless user experiences. I thrive in collaborative environments and continuously seek to enhance my skills to develop innovative solutions.
+      >I am passionate React.js developer building dynamic, user-centric web applications. My expertise lies in crafting responsive UIs, managing state efficiently using React Hooks and Redux, and implementing RESTful APIs to deliver seamless user experiences. I thrive in collaborative environments and continuously seek to enhance my skills to develop innovative solutions.
        </p>
 
 
