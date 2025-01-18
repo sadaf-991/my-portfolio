@@ -5,7 +5,7 @@ const MyWork = () => {
     <div>
      
       <h1 className='md:ml-[7rem] ml-[5rem] font-semibold md:font-bold text-3xl py-4'>Experience.</h1>
-      <div className=' mb-14 md:flex my-6 ml-[4rem] md:ml-[7rem] md:w-[63rem] w-[17rem] h-[23rem] md:h-[15rem] bg-gray-100 rounded-lg shadow-xl'>
+      <div className='m mb-14 md:flex my-6 mx-[3rem] md:ml-[7rem] md:w-[63rem] w-[17rem] h-auto md:h-[15rem] bg-gray-100 rounded-lg shadow-xl'>
         
         <div className='md:items-left'>
           <p className='md:my-5 mt-3 pt-4 mx-4 font-serif'>Intern At DoToq Dgtal</p>
