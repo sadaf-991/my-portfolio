@@ -144,7 +144,7 @@ Creating custom reusable components using CSS-in-JS and styled-components for sc
 
 </div>
 </div>
- <hr className='ml-[2rem]'/>
+ 
  </div>
  </div> 
   );

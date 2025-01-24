@@ -1,8 +1,5 @@
 import React from 'react'
 import myImage from '../my-image/myImage.jpeg'
-import Resume from './Resume'
-
-
 
 
 
@@ -25,12 +22,10 @@ const Home = () => {
       <p className=''>UI/UX Designer</p>
       </div>
       <div className='md:py-0'>
-      <p className='md:w-2/3 w-3/3 font-normal md:font-semibold'
+      <p className='md:w-2/3 w-full font-normal md:font-semibold'
       >I am passionate React.js developer building dynamic, user-centric web applications. My expertise lies in crafting responsive UIs, managing state efficiently using React Hooks and Redux, and implementing RESTful APIs to deliver seamless user experiences. I thrive in collaborative environments and continuously seek to enhance my skills to develop innovative solutions.
        </p>
-      
 
-       
        </div>
        </div>
        <div className='inline-block'>
